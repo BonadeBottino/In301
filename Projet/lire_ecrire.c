@@ -7,8 +7,8 @@ SLIDER lire_fichier(char *nom) {
 
 	printf("nom = %s\n",nom);
 	SLIDER S;
-	S.L = 10;
-	S.H = 5;
+	S.L = 20;
+	S.H = 15;
 	
 	return S;
 }
