@@ -19,7 +19,8 @@ lire_ecrire.o: lire_ecrire.c
 afficher.o: afficher.c
 #	gcc -c -Wall   -I/usr/include/SDL -D_GNU_SOURCE=1 -D_REENTRANT  afficher.c
 	gcc -c -Wall  `sdl-config --cflags`   afficher.c
-
+	
+#ouvrir dans geany
 editeur:
 	geany Makefile mes_types.h slider.c afficher.c afficher.h &
 
