@@ -22,7 +22,7 @@ afficher.o: afficher.c
 	
 #ouvrir dans geany
 editeur:
-	geany Makefile mes_types.h slider.c afficher.c afficher.h &
+	geany Makefile mes_types.h slider.c afficher.c afficher.h lire_ecrire.h &
 
 # Pour creer le zip a deposer sur e-campus
 zip:
